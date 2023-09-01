@@ -1,0 +1,34 @@
+{
+  "name": "@tresjs/eslint-config-vue",
+  "version": "0.4.0",
+  "packageManager": "pnpm@8.5.1",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@tresjs/eslint-config-base": "workspace:*",
+    "@tresjs/eslint-config-ts": "workspace:*",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@tresjs/configs-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@8.5.1",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@tresjs/eslint-config": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0"
+  }
+}
