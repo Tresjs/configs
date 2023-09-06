@@ -134,5 +134,8 @@ module.exports = {
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
     'vue/template-curly-spacing': 'error',
+    'vue/attribute-hyphenation': [2, 'always', {
+      ignore: ['shadow-mapSize-width', 'shadow-mapSize-height'],
+    }],
   },
 }
