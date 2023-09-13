@@ -89,6 +89,7 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'error',
 
     // Override JS
+    'no-unused-vars': 'error',
     'no-useless-constructor': 'off',
     indent: 'off',
     '@typescript-eslint/indent': [
