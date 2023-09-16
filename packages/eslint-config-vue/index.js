@@ -135,7 +135,13 @@ module.exports = {
     'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
     'vue/template-curly-spacing': 'error',
     'vue/attribute-hyphenation': [2, 'always', {
-      ignore: ['shadow-mapSize-width', 'shadow-mapSize-height'],
+      ignore: [
+        'shadow-mapSize-width',
+        'shadow-mapSize-height',
+        'material-uniforms-mieCoefficient-value',
+        'material-uniforms-mieDirectionalG-value',
+        'material-uniforms-sunPosition-value',
+      ],
     }],
   },
 }
